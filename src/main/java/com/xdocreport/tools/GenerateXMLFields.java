@@ -47,19 +47,24 @@ public class GenerateXMLFields {
         fieldsMetadata.addField("c2_fechaFinDeEstudios", false, "", "", false);
         fieldsMetadata.addField("c2_fechaInicioPrimeraProrroga", false, "", "", false);
         fieldsMetadata.addField("c2_fechaFinPrimeraProrroga", false, "", "", false);
-        fieldsMetadata.addField("c2_fechaInicioSegundaProrroga", false, "", "", false);
-        fieldsMetadata.addField("c2_fechaFinSegundaProrroga", false, "", "", false);
 
-        fieldsMetadata.addField("c3_nombreDelEvento", false, "", "", false);
-        fieldsMetadata.addField("c3_lugarDelEvento", false, "", "", false);
-        fieldsMetadata.addField("c3_tematicaDelEvento", false, "", "", false);
-        fieldsMetadata.addField("c3_fechaInicioDelEvento", false, "", "", false);
-        fieldsMetadata.addField("c3_fechaFinDelEvento", false, "", "", false);
-        fieldsMetadata.addField("c3_horasDelEvento", false, "", "", false);
+        fieldsMetadata.addField("c3_fechaInicioDeEstudios", false, "", "", false);
+        fieldsMetadata.addField("c3_fechaFinDeEstudios", false, "", "", false);
+        fieldsMetadata.addField("c3_fechaInicioPrimeraProrroga", false, "", "", false);
+        fieldsMetadata.addField("c3_fechaFinPrimeraProrroga", false, "", "", false);
+        fieldsMetadata.addField("c3_fechaInicioSegundaProrroga", false, "", "", false);
+        fieldsMetadata.addField("c3_fechaFinSegundaProrroga", false, "", "", false);
+
+        fieldsMetadata.addField("c4_nombreDelEvento", false, "", "", false);
+        fieldsMetadata.addField("c4_lugarDelEvento", false, "", "", false);
+        fieldsMetadata.addField("c4_tematicaDelEvento", false, "", "", false);
+        fieldsMetadata.addField("c4_fechaInicioDelEvento", false, "", "", false);
+        fieldsMetadata.addField("c4_fechaFinDelEvento", false, "", "", false);
+        fieldsMetadata.addField("c4_horasDelEvento", false, "", "", false);
 
         // 3) Generate XML fields in the file "*.fields.xml".
         // Extension *.fields.xml is very important to use it with MS Macro XDocReport.dotm
-        String pathFile = "/home/alexjcm/Descargas/certificados.fields.xml";
+        String pathFile = "/home/ajcm/Downloads/certificados.fields.xml";
         if (!pathFile.endsWith(".fields.xml")) {
             throw new Exception("The file must end with the extension .fields.xml");
         }

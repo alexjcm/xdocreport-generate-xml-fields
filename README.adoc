@@ -1,3 +1,43 @@
 == XdocReport generate XML fields
 
 Allow to generate XML fields with HTML metadata.
+
+== Docx Reporting in Java Main
+
+https://github.com/opensagres/xdocreport/wiki/DocxReportingJavaMain
+
+You must use MergeField (Champs de fusion) and not type directly
+$project.Name in your documentation.
+
+== Docx Design Report Macro
+
+The docx report should be designed using the MS Word macro XDocReport.dotm
+
+1.- Run the Java class GenerateXMLFields.java from this repository to generate the *.fields.xml file with the required XML fields.
+
+2.- Download fr.opensagres.xdocreport.document.tools-xxx-distribution.zip. This zip contains 3 folders :
+
+- bin : which contains the bat file xdrtools.bat which is required for the preview fetaure of the macro.
+This bat calls XDocReport JARs from the lib folder.
+- lib : which contains the whole JAR required to generate docx report with Freemarker or Velocity syntax.
+- macro : which contains the MS Word XDocReport.dotm macro.
+
+https://mega.nz/file/l8dGTRKB#lzER-Eruhq0OfCpNpFcuJ65aUdwKvHZ6F6WMWzvzeH4
+
+3.- Download this zip, and unzip it in a folder (e.g.: C:\XDocReport):
+
+4- Installation and Configuration of the MS Macro XDocReport.dotm
+
+By default MS Word forbids to execute Macro, so if you open XDocReport.dotm with MS Word
+you will able to not to execute the macro. You have several means to fix this problem.
+The easy mean is to copy/paste the macro/XDocReport.dotm in the STARTUP folder
+of MS Word C:\Documents and Settings$USER_NAME\Application Data\Microsoft\Word\STARTUP
+where $USER_NAME is your Windows user
+
+Close your MS Word if it is opened and reopen it (no need to open the XDocReport.dotm).
+When MS Word opens, it loads macros comming from the STARTUP folder.
+When your MS Word will be open you will see the following XDocReport menu.
+
+5 .- Design docx with MS Macro XDocReport.dotm by using the generated XML fields *.fields.xml.
+
+Complete tutorial: https://github.com/opensagres/xdocreport/wiki/DocxReportingQuickStart
