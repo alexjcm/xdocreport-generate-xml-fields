@@ -15,16 +15,18 @@ The docx report should be designed using the MS Word macro XDocReport.dotm
 
 1.- Run the Java class GenerateXMLFields.java from this repository to generate the *.fields.xml file with the required XML fields.
 
-2.- Download fr.opensagres.xdocreport.document.tools-xxx-distribution.zip. This zip contains 3 folders :
+2.- Download fr.opensagres.xdocreport.document.tools-xxx-distribution.zip.
+
+https://mega.nz/file/l8dGTRKB#lzER-Eruhq0OfCpNpFcuJ65aUdwKvHZ6F6WMWzvzeH4
+
+This zip contains 3 folders :
 
 - bin : which contains the bat file xdrtools.bat which is required for the preview fetaure of the macro.
 This bat calls XDocReport JARs from the lib folder.
 - lib : which contains the whole JAR required to generate docx report with Freemarker or Velocity syntax.
 - macro : which contains the MS Word XDocReport.dotm macro.
 
-https://mega.nz/file/l8dGTRKB#lzER-Eruhq0OfCpNpFcuJ65aUdwKvHZ6F6WMWzvzeH4
-
-3.- Download this zip, and unzip it in a folder (e.g.: C:\XDocReport):
+3. -Unzip it in a folder (e.g.: C:\XDocReport):
 
 4- Installation and Configuration of the MS Macro XDocReport.dotm
 

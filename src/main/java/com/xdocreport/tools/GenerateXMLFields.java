@@ -3,7 +3,6 @@ package com.xdocreport.tools;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
 import fr.opensagres.xdocreport.core.XDocReportException;
 import fr.opensagres.xdocreport.core.document.SyntaxKind;
 import fr.opensagres.xdocreport.template.TemplateEngineKind;
@@ -11,7 +10,7 @@ import fr.opensagres.xdocreport.template.formatter.FieldsMetadata;
 
 /**
  * Allows to generate XML fields with HTML metadata.
- * 
+ *
  * @author alexjcm
  */
 public class GenerateXMLFields {
@@ -32,7 +31,8 @@ public class GenerateXMLFields {
         fieldsMetadata.addField("nombreDeLaSecretaria", false, "", "", false);
         fieldsMetadata.addField("nombreDelGestor", false, "", "", false);
         fieldsMetadata.addField("nombreDelDecano", false, "", "", false);
-     
+        fieldsMetadata.addField("certificateCode", false, "", "", false);
+
         fieldsMetadata.addField("c1_nombreDeEmpresaMantenimiento", false, "", "", false);
         fieldsMetadata.addField("c1_fechaDeInicioMantenimiento", false, "", "", false);
         fieldsMetadata.addField("c1_fechaDeFinMantenimiento", false, "", "", false);
