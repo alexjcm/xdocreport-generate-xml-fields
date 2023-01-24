@@ -17,7 +17,7 @@ The docx report should be designed using the MS Word macro XDocReport.dotm
 
 2.- Download fr.opensagres.xdocreport.document.tools-xxx-distribution.zip.
 
-https://mega.nz/file/l8dGTRKB#lzER-Eruhq0OfCpNpFcuJ65aUdwKvHZ6F6WMWzvzeH4
+https://github.com/alexjcm/certificacion-electronica-recursos/raw/main/05_utilidades/fr.opensagres.xdocreport.document.tools-2.0.2-distribution.zip
 
 This zip contains 3 folders :
 
